@@ -2,18 +2,23 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <section className="py-20 bg-gradient-to-r from-emerald-600 to-blue-600">
-      <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-          Start Your Holistic Journey Now 
-        </h2>
-        <p className="text-xl text-emerald-100 mb-8 leading-relaxed">
-          Join thousands who have transformed their health with personalized AI wellness guidance. 
-          Your journey to better health starts with a single conversation.
-        </p>
-        <button className="bg-white text-emerald-600 px-10 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-200 shadow-lg">
-          Begin Your Transformation
-        </button>
+    <section id="cta" className="bg-gradient-to-r from-emerald-600 via-teal-500 to-sky-500">
+      <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          <div>
+            <h2 className="text-white text-3xl sm:text-4xl font-extrabold">Start your holistic journey today</h2>
+            <p className="text-emerald-100 mt-2">Join thousands who’ve improved their life with consistent, personalized guidance.</p>
+          </div>
+          <div className="flex gap-4">
+            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer"
+               className="rounded-full bg-white px-5 py-3 font-semibold text-emerald-700 shadow hover:scale-[1.02] transition-transform">
+              Chat on WhatsApp
+            </a>
+            <a href="#services" className="rounded-full bg-white/10 px-5 py-3 text-white font-semibold border border-white/20 hover:bg-white/20 transition">
+              View Services
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );

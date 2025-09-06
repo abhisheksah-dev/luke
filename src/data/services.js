@@ -10,7 +10,7 @@ export const services = [
     description: "Daily practices and mindset tools to manage anxiety and build resilience."
   },
   {
-    icon: "Salad",
+    icon: "Camera",
     title: "Meal Planning",
     description: "Simple, practical meal plans that fit your schedule and preferences."
   },
